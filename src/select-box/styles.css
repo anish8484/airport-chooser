@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: tomato;
+}
+.select-box-box {
+    width: 600px;
+    position: absolute;
+    left: 0;
+}
+.select-box-container {
+    border: 1px solid tomato;
+    height: 30px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.select-box-selected-item {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding: 4px 12px;
+    vertical-align: middle;
+}
+.select-box-items {
+    display: block;
+    height: 200px;
+    overflow-y: auto;
+    border-bottom: 1px solid tomato;
+}
+.select-box-items div {
+    border-bottom: 1px solid tomato;
+    border-left: 1px solid tomato;
+    border-right: 1px solid tomato;
+    padding: 6px;
+    padding-left: 20px;
+
+
+    overflow-y: auto;
+    border-bottom: 1px solid tomato;
+}
+
+.select-box-arrow {
+    width: 73px;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background: tomato;
+    position: absolute;
+    right: 0;
+}
+.select-box-arrow-down {
+    position: absolute;
+    top: 12px;
+    left: 29px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #fff;
+}
+.select-box-arrow-up {
+    position: absolute;
+    top: 10px;
+    left: 29px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.select-box-additional-content {
+    width: 100%;
+    border: 1px solid tomato;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    background-color: darksalmon;
+}
+
+.no-display {
+    display: none;
+}
