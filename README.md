@@ -45,12 +45,12 @@
         // This should print the object having all the airports and user details
 
 ## 5. Explain an approach for adding zoom and pan interaction to the display of a large floorplan image in a web application
-Lets say we have a background image on a div which we want to zoom or pan through. 
-Now, to zoom in or out, basically we want to change the size of it.
-Also, if we are thinking of a viewport, we have to clip out a section of it. 
-Here is a small demo in my codepen: https://codepen.io/mayukhroy/pen/BaKBQyN
+    Lets say we have a background image on a div which we want to zoom or pan through. 
+    Now, to zoom in or out, basically we want to change the size of it.
+    Also, if we are thinking of a viewport, we have to clip out a section of it. 
+    Here is a small demo in my codepen: https://codepen.io/mayukhroy/pen/BaKBQyN
 
-I was looking at an example in w3schools which implements a magnifier here: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_magnifier_glass
+    I was looking at an example in w3schools which implements a magnifier here: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_magnifier_glass
 
 ## Available Scripts
 
