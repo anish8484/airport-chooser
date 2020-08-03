@@ -5,10 +5,12 @@
     Ans: "props" are used to hydrate a component with data. 
     As an example if we say `<SelectBox items = {airportList} />`, we can receive `props.items` inside 
     SelectBox component.
-    "state" is current phase of a component. `this.setState({date: new Date()});` is setting date in some component. "state" is component specific. 
+    "state" is current phase of a component. `this.setState({date: new Date()});` 
+    is setting date in some component. "state" is component specific. 
 
 ## 2. What will cause the render() function of a React component to be executed
-    Ans: A change in 'state' or 'props' triggers a render method call. In the above example, we did a `setState`, which will re-render the component.
+    Ans: A change in 'state' or 'props' triggers a render method call. 
+    In the above example, we did a `setState`, which will re-render the component.
 
 ## 3. Will React or raw JS/HTML deliver better performance for a single page web application, and why
     Ans: Well, this depends on the application. 
@@ -19,7 +21,8 @@
     Hence, for a liitle complex application, React can be a great choice.
 
 ## 4. Describe the Observer pattern (in the context of UI development), what benefit it provides, how it is used, and a method of implementing in JS
-    Observer Pattern: This behavioral design pattern is meant for listening to a stream of data. Observer can listen to one or a collection of data. 
+    Observer Pattern: This behavioral design pattern is meant for listening to a stream of data. 
+    Observer can listen to one or a collection of data. 
     But, there has to be a Subscriber to get the data and put that in use.
     In my simple words, it can happen in these steps:
     Step 1: Create Stream(from just a simple array maybe, or API response)
